@@ -6,11 +6,11 @@ using static Business.BankBusiness;
 
 namespace WinFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class BankSystem : Form
     {
         public BankBusiness bankBusiness = new BankBusiness();
         private int editId = 0;
-        public Form1()
+        public BankSystem()
         {
             var db = new BankDbContext();
             InitializeComponent();

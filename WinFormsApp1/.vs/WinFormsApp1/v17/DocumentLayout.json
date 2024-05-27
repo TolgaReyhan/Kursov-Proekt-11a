@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\GIT\\Kursov-Proekt-11a\\WinFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D6791559-9B55-4C8C-A94F-BEFBDDDC4344}|Data\\Data.csproj|d:\\git\\kursov-proekt-11a\\winformsapp1\\data\\models\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F86DF755-E9D6-46CB-9C59-6621ED978959}|WinFormsApp1\\WinFormsApp1.csproj|d:\\git\\kursov-proekt-11a\\winformsapp1\\winformsapp1\\banksystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F86DF755-E9D6-46CB-9C59-6621ED978959}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\banksystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F86DF755-E9D6-46CB-9C59-6621ED978959}|WinFormsApp1\\WinFormsApp1.csproj|d:\\git\\kursov-proekt-11a\\winformsapp1\\winformsapp1\\banksystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F86DF755-E9D6-46CB-9C59-6621ED978959}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\banksystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6791559-9B55-4C8C-A94F-BEFBDDDC4344}|Data\\Data.csproj|D:\\GIT\\Kursov-Proekt-11a\\WinFormsApp1\\data\\models\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6791559-9B55-4C8C-A94F-BEFBDDDC4344}|Data\\Data.csproj|solutionrelative:data\\models\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B36EC57E-BF6C-4B4A-8016-06F1EE5B3313}|Business\\Business.csproj|D:\\GIT\\Kursov-Proekt-11a\\WinFormsApp1\\business\\business.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B36EC57E-BF6C-4B4A-8016-06F1EE5B3313}|Business\\Business.csproj|solutionrelative:business\\business.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F86DF755-E9D6-46CB-9C59-6621ED978959}|WinFormsApp1\\WinFormsApp1.csproj|D:\\GIT\\Kursov-Proekt-11a\\WinFormsApp1\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F86DF755-E9D6-46CB-9C59-6621ED978959}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F86DF755-E9D6-46CB-9C59-6621ED978959}|WinFormsApp1\\WinFormsApp1.csproj|d:\\git\\kursov-proekt-11a\\winformsapp1\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F86DF755-E9D6-46CB-9C59-6621ED978959}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6791559-9B55-4C8C-A94F-BEFBDDDC4344}|Data\\Data.csproj|D:\\GIT\\Kursov-Proekt-11a\\WinFormsApp1\\data\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,24 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\GIT\\Kursov-Proekt-11a\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
-              "ToolTip": "D:\\GIT\\Kursov-Proekt-11a\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
-              "RelativeToolTip": "WinFormsApp1\\Form1.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAdAAAA",
+              "DocumentIndex": 1,
+              "Title": "BankSystem.cs",
+              "DocumentMoniker": "D:\\GIT\\Kursov-Proekt-11a\\WinFormsApp1\\WinFormsApp1\\BankSystem.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\BankSystem.cs",
+              "ToolTip": "D:\\GIT\\Kursov-Proekt-11a\\WinFormsApp1\\WinFormsApp1\\BankSystem.cs",
+              "RelativeToolTip": "WinFormsApp1\\BankSystem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-17T19:17:07.955Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Bank.cs",
               "DocumentMoniker": "D:\\GIT\\Kursov-Proekt-11a\\WinFormsApp1\\Data\\Models\\Bank.cs",
               "RelativeDocumentMoniker": "Data\\Models\\Bank.cs",
@@ -60,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Business.cs",
               "DocumentMoniker": "D:\\GIT\\Kursov-Proekt-11a\\WinFormsApp1\\Business\\Business.cs",
               "RelativeDocumentMoniker": "Business\\Business.cs",
@@ -68,8 +68,7 @@
               "RelativeToolTip": "Business\\Business.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T18:58:14.158Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T18:58:14.158Z"
             },
             {
               "$type": "Document",
@@ -81,17 +80,16 @@
               "RelativeToolTip": "Data\\Data.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T18:58:03.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T18:58:03.48Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\GIT\\Kursov-Proekt-11a\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
-              "ToolTip": "D:\\GIT\\Kursov-Proekt-11a\\WinFormsApp1\\WinFormsApp1\\Form1.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\Form1.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "BankSystem.cs [Design]",
+              "DocumentMoniker": "D:\\GIT\\Kursov-Proekt-11a\\WinFormsApp1\\WinFormsApp1\\BankSystem.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\BankSystem.cs",
+              "ToolTip": "D:\\GIT\\Kursov-Proekt-11a\\WinFormsApp1\\WinFormsApp1\\BankSystem.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\BankSystem.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-17T18:57:25.051Z",
               "EditorCaption": " [Design]"

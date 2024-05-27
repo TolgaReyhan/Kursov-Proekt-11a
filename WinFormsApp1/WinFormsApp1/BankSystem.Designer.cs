@@ -1,6 +1,6 @@
 ﻿namespace WinFormsApp1
 {
-    partial class Form1
+    partial class BankSystem
     {
         /// <summary>
         ///  Required designer variable.
@@ -157,7 +157,7 @@
             dataGridView1.Size = new Size(541, 239);
             dataGridView1.TabIndex = 12;
             // 
-            // Form1
+            // BankSystem
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -175,8 +175,8 @@
             Controls.Add(txtWithdraw);
             Controls.Add(txtBalance);
             Controls.Add(txtName);
-            Name = "Form1";
-            Text = "Form1";
+            Name = "BankSystem";
+            Text = "BankSystem";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
