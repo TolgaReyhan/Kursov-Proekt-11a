@@ -15,3 +15,21 @@ D:\Visual studio\VS programs\WinFormsApp1\Business\obj\Debug\net8.0\refint\Busin
 D:\Visual studio\VS programs\WinFormsApp1\Business\obj\Debug\net8.0\Business.pdb
 D:\Visual studio\VS programs\WinFormsApp1\Business\obj\Debug\net8.0\Business.genruntimeconfig.cache
 D:\Visual studio\VS programs\WinFormsApp1\Business\obj\Debug\net8.0\ref\Business.dll
+D:\GIT\Kursov-Proekt-11a\WinFormsApp1\Business\bin\Debug\net8.0\Business.deps.json
+D:\GIT\Kursov-Proekt-11a\WinFormsApp1\Business\bin\Debug\net8.0\Business.runtimeconfig.json
+D:\GIT\Kursov-Proekt-11a\WinFormsApp1\Business\bin\Debug\net8.0\Business.dll
+D:\GIT\Kursov-Proekt-11a\WinFormsApp1\Business\bin\Debug\net8.0\Business.pdb
+D:\GIT\Kursov-Proekt-11a\WinFormsApp1\Business\bin\Debug\net8.0\Data.dll
+D:\GIT\Kursov-Proekt-11a\WinFormsApp1\Business\bin\Debug\net8.0\Data.pdb
+D:\GIT\Kursov-Proekt-11a\WinFormsApp1\Business\obj\Debug\net8.0\Business.csproj.AssemblyReference.cache
+D:\GIT\Kursov-Proekt-11a\WinFormsApp1\Business\obj\Debug\net8.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT\Kursov-Proekt-11a\WinFormsApp1\Business\obj\Debug\net8.0\Business.AssemblyInfoInputs.cache
+D:\GIT\Kursov-Proekt-11a\WinFormsApp1\Business\obj\Debug\net8.0\Business.AssemblyInfo.cs
+D:\GIT\Kursov-Proekt-11a\WinFormsApp1\Business\obj\Debug\net8.0\Business.csproj.CoreCompileInputs.cache
+D:\GIT\Kursov-Proekt-11a\WinFormsApp1\Business\obj\Debug\net8.0\Business.sourcelink.json
+D:\GIT\Kursov-Proekt-11a\WinFormsApp1\Business\obj\Debug\net8.0\Business.csproj.Up2Date
+D:\GIT\Kursov-Proekt-11a\WinFormsApp1\Business\obj\Debug\net8.0\Business.dll
+D:\GIT\Kursov-Proekt-11a\WinFormsApp1\Business\obj\Debug\net8.0\refint\Business.dll
+D:\GIT\Kursov-Proekt-11a\WinFormsApp1\Business\obj\Debug\net8.0\Business.pdb
+D:\GIT\Kursov-Proekt-11a\WinFormsApp1\Business\obj\Debug\net8.0\Business.genruntimeconfig.cache
+D:\GIT\Kursov-Proekt-11a\WinFormsApp1\Business\obj\Debug\net8.0\ref\Business.dll

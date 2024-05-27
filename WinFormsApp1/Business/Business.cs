@@ -4,52 +4,52 @@ using System.Linq;
 
 namespace Business
 {
-    public class ProductBusiness
+    public class BankBusiness
     {
-            private ProductDbContext productContext;
-            public List<Product> GetAll()
+            private BankDbContext bankContext;
+            public List<Bank> GetAll()
             {
-                using (productContext = new ProductDbContext())
+                using (bankContext = new BankDbContext())
                 {
-                    return productContext.Products.ToList();
+                    return bankContext.Banks.ToList();
                 }
             }
-            public Product Get(int id)
+            public Bank Get(int id)
             {
-                using (productContext = new ProductDbContext())
+                using (bankContext = new BankDbContext())
                 {
-                    return productContext.Products.Find(id);
+                    return bankContext.Banks.Find(id);
                 }
             }
-            public void Add(Product product)
+            public void Add(Bank product)
             {
-                using (productContext = new ProductDbContext())
+                using (bankContext = new BankDbContext())
                 {
-                    productContext.Products.Add(product);
-                    productContext.SaveChanges();
+                    bankContext.Banks.Add(product);
+                    bankContext.SaveChanges();
                 }
             }
-            public void Update(Product product)
+            public void Update(Bank product)
             {
-                using (productContext = new ProductDbContext())
+                using (bankContext = new BankDbContext())
                 {
-                    var item = productContext.Products.Find(product.Id);
+                    var item = bankContext.Banks.Find(product.Id);
                     if (item != null)
                     {
-                        productContext.Entry(item).CurrentValues.SetValues(product);
-                        productContext.SaveChanges();
+                        bankContext.Entry(item).CurrentValues.SetValues(product);
+                        bankContext.SaveChanges();
                     }
                 }
             }
             public void Delete(int id)
             {
-                using (productContext = new ProductDbContext())
+                using (bankContext = new BankDbContext())
                 {
-                    var product = productContext.Products.Find(id);
+                    var product = bankContext.Banks.Find(id);
                     if (product != null)
                     {
-                        productContext.Products.Remove(product);
-                        productContext.SaveChanges();
+                        bankContext.Banks.Remove(product);
+                        bankContext.SaveChanges();
                     }
                 }
             }

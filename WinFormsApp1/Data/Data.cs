@@ -4,9 +4,9 @@ using System.Runtime.CompilerServices;
 
 namespace Data
 {
-    public class ProductDbContext:DbContext
+    public class BankDbContext:DbContext
     {
-        public ProductDbContext()
+        public BankDbContext()
         {
             this.Database.Migrate();
         }
@@ -18,6 +18,6 @@ namespace Data
                     "Integrated Security=true;TrustServerCertificate=true;");
             }
         }
-        public DbSet<Product> Products { get; set; }
+        public DbSet<Bank> Banks { get; set; }
     }
 }

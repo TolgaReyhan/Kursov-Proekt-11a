@@ -2,17 +2,17 @@ using Business;
 using Data;
 using Data.Models;
 using System.Drawing.Text;
-using static Business.ProductBusiness;
+using static Business.BankBusiness;
 
 namespace WinFormsApp1
 {
     public partial class Form1 : Form
     {
-        public ProductBusiness productBusiness = new ProductBusiness();
+        public BankBusiness bankBusiness = new BankBusiness();
         private int editId = 0;
         public Form1()
         {
-            var db = new ProductDbContext();
+            var db = new BankDbContext();
             InitializeComponent();
         }
 
@@ -23,7 +23,7 @@ namespace WinFormsApp1
         }
         private void UpdateGrid()
         {
-            dataGridView1.DataSource = productBusiness.GetAll();
+            dataGridView1.DataSource = bankBusiness.GetAll();
             dataGridView1.ReadOnly = true;
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
         }
@@ -43,18 +43,18 @@ namespace WinFormsApp1
             int.TryParse(txtWithdraw.Text, out withdraw);
             int deposit = 0;
             int.TryParse(txtDeposit.Text, out deposit);
-            Product product = new Product();
-            product.Name = name;
-            product.Balance = balance;
-            product.Withdraw = withdraw;
-            product.Deposit = deposit;
-            productBusiness.Add(product);
+            Bank bank = new Bank();
+            bank.Name = name;
+            bank.Balance = balance;
+            bank.Withdraw = withdraw;
+            bank.Deposit = deposit;
+            bankBusiness.Add(bank);
             UpdateGrid();
             ClearTextBoxes();
         }
         private void UpdateTextboxes(int id)
         {
-            Product update = productBusiness.Get(id);
+            Bank update = bankBusiness.Get(id);
             txtName.Text = update.Name;
             txtBalance.Text = update.Balance.ToString();
             txtWithdraw.Text = update.Withdraw.ToString();
@@ -89,10 +89,10 @@ namespace WinFormsApp1
                 DisableSelect();
             }
         }
-        private Product GetEditedProduct()
+        private Bank GetEditedBank()
         {
-            Product product = new Product();
-            product.Id = editId;
+            Bank bank = new Bank();
+            bank.Id = editId;
             var name = txtName.Text;
             double balance = 0;
             double.TryParse(txtBalance.Text, out balance);
@@ -100,11 +100,11 @@ namespace WinFormsApp1
             int.TryParse(txtWithdraw.Text, out withdraw);
             int deposit = 0;
             int.TryParse(txtDeposit.Text, out deposit);
-            product.Name = name;
-            product.Balance = balance;
-            product.Withdraw = withdraw;
-            product.Deposit = deposit;
-            return product;
+            bank.Name = name;
+            bank.Balance = balance;
+            bank.Withdraw = withdraw;
+            bank.Deposit = deposit;
+            return bank;
         }
         private void ResetSelect()
         {
@@ -113,8 +113,8 @@ namespace WinFormsApp1
         }
         private void btnSave_Click(object sender, EventArgs e)
         {
-            Product editedProduct = GetEditedProduct();
-            productBusiness.Update(editedProduct);
+            Bank editedBank = GetEditedBank();
+            bankBusiness.Update(editedBank);
             UpdateGrid();
             ResetSelect();
             ToggleSaveUpdate();
@@ -126,7 +126,7 @@ namespace WinFormsApp1
             {
                 var item = dataGridView1.SelectedRows[0].Cells;
                 var id = int.Parse(item[0].Value.ToString());
-                productBusiness.Delete(id);
+                bankBusiness.Delete(id);
                 UpdateGrid();
                 ResetSelect();
             }

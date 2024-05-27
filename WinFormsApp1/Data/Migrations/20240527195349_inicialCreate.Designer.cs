@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Data.Migrations
 {
-    [DbContext(typeof(ProductDbContext))]
-    [Migration("20240517191624_inicialCreate")]
+    [DbContext(typeof(BankDbContext))]
+    [Migration("20240527195349_inicialCreate")]
     partial class inicialCreate
     {
         /// <inheritdoc />
@@ -24,7 +24,7 @@ namespace Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Data.Models.Product", b =>
+            modelBuilder.Entity("Data.Models.Bank", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -47,7 +47,7 @@ namespace Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Products");
+                    b.ToTable("Banks");
                 });
 #pragma warning restore 612, 618
         }

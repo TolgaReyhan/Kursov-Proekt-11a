@@ -4769,11 +4769,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Visual studio\\VS programs\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+      "projectUniqueName": "D:\\GIT\\Kursov-Proekt-11a\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
       "projectName": "WinFormsApp1",
-      "projectPath": "D:\\Visual studio\\VS programs\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+      "projectPath": "D:\\GIT\\Kursov-Proekt-11a\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
       "packagesPath": "C:\\Users\\Barcelona\\.nuget\\packages\\",
-      "outputPath": "D:\\Visual studio\\VS programs\\WinFormsApp1\\WinFormsApp1\\obj\\",
+      "outputPath": "D:\\GIT\\Kursov-Proekt-11a\\WinFormsApp1\\WinFormsApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Barcelona\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4790,11 +4790,11 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "D:\\Visual studio\\VS programs\\WinFormsApp1\\Business\\Business.csproj": {
-              "projectPath": "D:\\Visual studio\\VS programs\\WinFormsApp1\\Business\\Business.csproj"
+            "D:\\GIT\\Kursov-Proekt-11a\\WinFormsApp1\\Business\\Business.csproj": {
+              "projectPath": "D:\\GIT\\Kursov-Proekt-11a\\WinFormsApp1\\Business\\Business.csproj"
             },
-            "D:\\Visual studio\\VS programs\\WinFormsApp1\\Data\\Data.csproj": {
-              "projectPath": "D:\\Visual studio\\VS programs\\WinFormsApp1\\Data\\Data.csproj"
+            "D:\\GIT\\Kursov-Proekt-11a\\WinFormsApp1\\Data\\Data.csproj": {
+              "projectPath": "D:\\GIT\\Kursov-Proekt-11a\\WinFormsApp1\\Data\\Data.csproj"
             }
           }
         }

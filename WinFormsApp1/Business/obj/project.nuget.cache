@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hNLxLcAUg3O5+3Fozngp8bpf2/h3+iY/F35z/MBKCd5DY+CLZzzAkFF/I69wCHWbXNgVoe2eHl67waIamu1clA==",
+  "dgSpecHash": "/CYBrD5PBixqmKgGoKrRRcsam1/PGWojyIMmGhtdlOZap5wip2BWMAleDqPDOYi4JCSK67ASsorDBlr4LwYUVA==",
   "success": true,
-  "projectFilePath": "D:\\Visual studio\\VS programs\\WinFormsApp1\\Business\\Business.csproj",
+  "projectFilePath": "D:\\GIT\\Kursov-Proekt-11a\\WinFormsApp1\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Barcelona\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Barcelona\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
